@@ -61,14 +61,14 @@ const GlobalHeaderRight: React.FC = () => {
                 window.open('/~docs');
               }}
             >
-              组件文档
+              Documentation
             </Menu.Item>
             <Menu.Item
               onClick={() => {
-                window.open('https://pro.ant.design/docs/getting-started');
+                window.open('https://burubur.com');
               }}
             >
-              Open POS 文档
+              Open POS
             </Menu.Item>
           </Menu>
         }
