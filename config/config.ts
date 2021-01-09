@@ -13,7 +13,7 @@ export default defineConfig({
     hmr: true,
   },
   layout: {
-    name: 'Ant Design Pro',
+    name: 'Open POS',
     locale: true,
     siderWidth: 208,
     ...defaultSettings,

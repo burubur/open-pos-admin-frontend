@@ -68,7 +68,7 @@ const GlobalHeaderRight: React.FC = () => {
                 window.open('https://pro.ant.design/docs/getting-started');
               }}
             >
-              Ant Design Pro 文档
+              Open POS 文档
             </Menu.Item>
           </Menu>
         }

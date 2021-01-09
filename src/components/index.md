@@ -68,18 +68,18 @@ export default () => {
       placeholder="站内搜索"
       defaultValue="umi ui"
       options={[
-        { label: 'Ant Design Pro', value: 'Ant Design Pro' },
+        { label: 'Open POS', value: 'Open POS' },
         {
-          label: 'Ant Design',
-          value: 'Ant Design',
+          label: 'Products',
+          value: 'Product List',
         },
         {
-          label: 'Pro Table',
-          value: 'Pro Table',
+          label: 'Users',
+          value: 'User List',
         },
         {
-          label: 'Pro Layout',
-          value: 'Pro Layout',
+          label: 'Orders',
+          value: 'Transactions',
         },
       ]}
       onSearch={(value) => {
