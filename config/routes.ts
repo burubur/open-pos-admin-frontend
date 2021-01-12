@@ -16,35 +16,60 @@
     ],
   },
   {
-    path: '/welcome',
-    name: 'welcome',
-    icon: 'smile',
-    component: './Welcome',
+    path: '/report',
+    name: 'Report',
+    icon: 'BarChartOutlined',
+    component: './Welcome'
+  },
+  {
+    path: '/order',
+    name: 'Order',
+    icon: 'DollarOutlined',
+    component: './Welcome'
+  },
+  {
+    path: '/complaint',
+    name: 'Complaint',
+    icon: 'ExclamationCircleOutlined',
+    component: './Welcome'
   },
   {
     path: '/admin',
     name: 'admin',
-    icon: 'crown',
+    icon: 'setting',
     access: 'canAdmin',
     component: './Admin',
     routes: [
       {
-        path: '/admin/sub-page',
-        name: 'sub-page',
-        icon: 'smile',
+        path: '/admin/product',
+        name: 'Product',
+        component: './Welcome',
+      },
+      {
+        path: '/admin/manual-order',
+        name: 'Manual Order',
+        component: './Welcome',
+      },
+      {
+        path: '/admin/user',
+        name: 'User',
+        component: './Welcome',
+      },
+      {
+        path: '/admin/menu',
+        name: 'Authorization',
+        component: './Welcome',
+      },
+      {
+        path: '/admin/authenticator',
+        name: 'Authenticator',
         component: './Welcome',
       },
     ],
   },
   {
-    name: 'list.table-list',
-    icon: 'table',
-    path: '/list',
-    component: './TableList',
-  },
-  {
     path: '/',
-    redirect: '/welcome',
+    redirect: '/report',
   },
   {
     component: './404',
